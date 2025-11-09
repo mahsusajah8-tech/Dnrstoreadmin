@@ -1,0 +1,1 @@
+console.log('DNRstore Dark Mode aktif!');

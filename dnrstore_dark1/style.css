@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
+  display: flex;
+  min-height: 100vh;
+}
+.sidebar {
+  width: 240px;
+  background-color: #161b22;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.sidebar .brand {
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #58a6ff;
+}
+.sidebar nav a {
+  text-decoration: none;
+  color: #e6edf3;
+  padding: 10px 0;
+  display: block;
+  transition: 0.2s;
+}
+.sidebar nav a:hover {
+  color: #58a6ff;
+}
+.content {
+  flex: 1;
+  padding: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #161b22;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+header input {
+  width: 60%;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+header button {
+  background: #238636;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.announcement, .invoice {
+  background: #161b22;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #161b22;
+  color: #8b949e;
+}
